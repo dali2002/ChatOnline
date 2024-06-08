@@ -2,7 +2,7 @@ import socket
 import threading
 
 # Server setup
-host = '127.0.0.1'
+host = '0.0.0.0'
 port = 55555
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -54,3 +54,4 @@ def receive():
 
 print('Server is listening...')
 receive()
+
